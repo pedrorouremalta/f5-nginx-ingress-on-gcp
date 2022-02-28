@@ -2,6 +2,8 @@
 
 This is a step-by-step lab that shows how to deploy **NGINX Plus** as an *ingress controller* for your kubernetes cluster - more specifically a GKE cluster. This lab also explore the use of **NGIX App Protect** (WAF) to protect your workloads running on a kubernetes cluster. All events logs from **NGINX App Protect** are sent to the **Cloud Operations Logging** service.
 
+*Note: The guide was written to be easily followed from any Linux distro. However all of linux-specific commands can be easily converted to other operating systems like Windows or Mac.*
+
 ## Overview
 
 This is high-level view about he steps performed in this lab:
