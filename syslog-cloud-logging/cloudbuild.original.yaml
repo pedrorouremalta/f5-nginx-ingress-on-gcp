@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/PROJECTNAME/syslog-cloud-logging', '-f', 'syslog-cloud-logging/Dockerfile', './syslog-cloud-logging' ]
+images: ['gcr.io/PROJECTNAME/syslog-cloud-logging']
