@@ -1,0 +1,8 @@
+nginx-repo/nginx-repo.crt
+nginx-repo/nginx-repo.key
+nginx-repo/nginx-repo.jwt
+tls.key
+tls.crt
+k8s_manifests/cafe-secret.yaml
+k8s_manifests/syslog.yaml
+syslog-cloud-logging/cloudbuild.yaml
